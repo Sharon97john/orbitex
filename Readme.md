@@ -1,27 +1,9 @@
-## Tezos-Lottery
+# Orbitex - THe first in-orbit  marketplace
+The firt In-Orbit Marketplace. Using a Decentralized Autonomous. Organisation to create an NFT marketplace for space-junk.
 
-## Quick Start
-
-### 1. Clone the Repository
-
-```
-$ git clone https://github.com/abhi1506manu/tezos-lottery.git
-```
-
-### 2. Install Dependencies
-```
-$ cd tezos-lottery
-$ npm install
-```
-
-### 3. To Start 
-
-```
-$ npm run dev
-```
-
-## NFT Contracts
-
-Ghostnet contract : KT1WT6AjrzNhUqXZgc2JVE8bvRgb9WmkUXrT
-
-RPC URL : https://ghostnet.smartpy.io
+### Tech stack
+React.js - Frontend
+tezos - To create a smart contract using smartpy
+smartpy
+Taquito
+Jakarta test node
