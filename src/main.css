@@ -1,0 +1,75 @@
+#root,
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.orbitex-img {
+  background-image: url("./utils/Space-debris.webp");
+  background-position: 0px 122px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-orbitex {
+  padding: 20px;
+}
+
+.navbar-orbitex a {
+  color: #f1f1f1;
+  font-size: 40px;
+  text-decoration: none !important;
+}
+.navbar-orbitex a span {
+  font-size: 27px;
+  color: #0dcaf0;
+}
+.navbar button {
+  margin-right: 20px;
+}
+
+.orbitex-bg-dark {
+  height: 80px;
+  display: unset;
+}
+
+.content {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+  height: 600px;
+}
+
+.centered {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  height: 100%;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.links-container a {
+  text-decoration: none;
+  color: #0dcaf0;
+  margin-right: 20px;
+}
+
+.tbl-orb button {
+  color: #0dcaf0;
+  background-color: #0b0203;
+  border-color: #0dcaf0;
+}
+
+table button {
+  font-size: 12px !important;
+  margin-right: 10px;
+}
